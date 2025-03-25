@@ -57,6 +57,7 @@ body {
     background: linear-gradient(135deg, #00b550, #2eafff);
     color: white;
     text-align: center;
+    /* Removido overflow: hidden; */
 }
 
 /* Cabeçalho com efeito vidro fosco */
@@ -211,7 +212,6 @@ section.show {
 }
 body {
     background: linear-gradient(135deg, #00b550, #2eafff);
-    overflow: hidden;
 }
 
 /* Ajustes para dispositivos móveis */
