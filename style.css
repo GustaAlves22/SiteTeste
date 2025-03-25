@@ -260,6 +260,16 @@ body {
         font-size: 16px;
     }
 
+    /* Ajustar listas */
+    #rules ul {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    #rules li {
+        margin-bottom: 8px;
+    }
+
     /* Ajustar botões */
     button {
         padding: 10px 30px;
@@ -269,16 +279,6 @@ body {
     /* Ajustar rodapé */
     footer {
         font-size: 12px;
-    }
-
-    /* Ajustar lista de regras */
-    #rules ul {
-        padding-left: 20px;
-        font-size: 16px;
-    }
-
-    #rules li {
-        margin-bottom: 8px;
     }
 }
 
@@ -311,5 +311,18 @@ body {
 
     .event-date, .event-location {
         font-size: 14px;
+    }
+
+    #rules ul {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    #rules li {
+        margin-bottom: 6px;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
