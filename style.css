@@ -1,6 +1,48 @@
 /* Importando fonte moderna */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+/* Estilos para a seção de início */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-info {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.event-date, .event-location {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.event-date::before {
+    content: "📅 ";
+}
+
+.event-location::before {
+    content: "📍 ";
+}
+
+@media (max-width: 768px) {
+    .event-date, .event-location {
+        font-size: 18px;
+    }
+    
+    .event-info {
+        padding: 15px 25px;
+    }
+}
+
 /* Reset básico */
 * {
     margin: 0;
@@ -166,4 +208,8 @@ section.show {
 
 #rules strong {
     color: #ffcc00;
+}
+body {
+    background: linear-gradient(135deg, #00b550, #2eafff);
+    overflow: hidden;
 }
