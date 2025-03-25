@@ -119,6 +119,7 @@ section h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
+    scroll-margin-top: 100px; /* Ajuste para evitar que o título fique escondido */
 }
 
 section p {
