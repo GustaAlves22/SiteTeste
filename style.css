@@ -213,3 +213,103 @@ body {
     background: linear-gradient(135deg, #00b550, #2eafff);
     overflow: hidden;
 }
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Ajustar o layout da seção inicial */
+    #home {
+        padding: 20px;
+    }
+
+    .event-info {
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .event-date, .event-location {
+        font-size: 16px;
+    }
+
+    /* Ajustar o cabeçalho */
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    /* Ajustar seções */
+    section {
+        padding: 120px 15px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    /* Ajustar botões */
+    button {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+    /* Ajustar rodapé */
+    footer {
+        font-size: 12px;
+    }
+
+    /* Ajustar lista de regras */
+    #rules ul {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    #rules li {
+        margin-bottom: 8px;
+    }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .event-info {
+        padding: 8px 15px;
+    }
+
+    .event-date, .event-location {
+        font-size: 14px;
+    }
+}
