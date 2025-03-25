@@ -57,7 +57,7 @@ body {
     background: linear-gradient(135deg, #00b550, #2eafff);
     color: white;
     text-align: center;
-    /* Removido overflow: hidden; */
+    overflow: auto; /* Garantir que a rolagem funcione */
 }
 
 /* Cabeçalho com efeito vidro fosco */
